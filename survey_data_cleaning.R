@@ -1,9 +1,6 @@
 library(data.table)
 library(feather)
 
-world <- geojsonio::geojson_read("world.geo.json", what = "sp")
-
-
 # Survey data
 
 dev_survey_19 <- fread("./SOresults/SO_survey_results_2019.csv")
